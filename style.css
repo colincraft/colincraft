@@ -30,7 +30,7 @@
 		.logo{
 			width:50px;
 			float: right;
-			padding-right: 20px;
+			padding-right: 25px;
 		}
 		.tag{
 			font-family: 'Raleway', sans-serif;
@@ -40,9 +40,6 @@
 			color: white;
 			float: right;
 			clear: right;
-
-
-
 		}
 		.selfie{
 			display: block;
@@ -95,19 +92,19 @@
 			padding-top: 90px;
 			padding-left: 100px;
 			padding-right: 100px;
+			padding-bottom: 126px;
 		}
 		#experience{
 			height: 400px;
 			background-color: gray;
 			margin-top: 0px;
-
-
 		}
 		.email{
 			font-family: 'Raleway', sans-serif;
 			font-weight: 300;
 			font-size: 28px;
 			color: white;
+			text-decoration: underline;
 		}
 		#contact{
 			height: 400px;
@@ -119,4 +116,16 @@
 			width: 250px;
 			display: block;
 			clear: both;
+		}
+		.bottomTag{
+			display: block;
+			clear: both;
+			text-align: left;
+			padding-left: 70px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 300;
+			font-size: 24px;
+			color: white;
+			padding-bottom: 30px;
+
 		}

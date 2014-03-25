@@ -1,7 +1,48 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200' rel='stylesheet' type='text/css'>
+<title>Colin Craft | About Me</title>
+<!--move this to CSS.stylesheet
+-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class='header'>
+<img class='logo' src="assets/ccdLogoWhite.svg">
+<p class='tag'>Colin Craft</p>
+</div>
+<img class="selfie" src="assets/me.jpg" alt="Colin Craft">
+<h1>Hi! I'm Colin.</h1>
+    <ul>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+<div id="aboutMe">
+	<h2>About Me</h2>
+	<p class="descriptors">I am a Web & Print Designer, born and raised in the San Francisco Bay Area.</p>
+</div>
+<div id="experience">
+	<h2>Experience</h2>
+	<p class="descriptors">I have done work for Political Campaigns, Non-Profits and Private Healthcare Companies, as well as Startups.</P>
+</div>
+<div id="contact">
+	<h2>Contact Me</h2>
+	<p class="descriptors">Want to chat? Reach me <a class='email' href="mailto:Colin@colincraft.com">Here</a></p>
+</div>
+ <script language="JavaScript"> var i = 0; var path = new Array(); 
+ 	 path[0] = "assets/slider1.jpeg"; 
+ 	 path[1] = "assets/slider2.jpg"; 
+ 	 path[2] = "assets/slider3.jpg"; 
+ 	 function swapImage() { 
+ 	 	document.slide.src = path[i]; if(i < path.length - 1) i++; 
+ 	 	else i = 0; 
+ 	 	setTimeout("swapImage()",3000); } 
+ 	 	window.onload=swapImage; 
+ 	 </script> 
+ 	 <img name="slide" src="assets/slider1.jpeg"/> 
+ 	 <img class="bottomLeft" src="assets/Freddie_wink.png">
+</div>
 </body>
 </html>
